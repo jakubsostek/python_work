@@ -5,3 +5,5 @@ for liczba in liczby:
     if liczba % 2 == 0:
         suma += liczba
 print(suma)
+
+
