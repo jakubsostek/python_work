@@ -93,3 +93,11 @@ def reverse_string(text):
     return text[::-1]
 result = reverse_string("kod")
 print(result)
+
+#Zadanie 11
+def podsumowanie(imie, wiek, miasto="Gdańsk"):
+    return imie + ", " + str(wiek) + " lat, " + miasto
+result = podsumowanie("Kuba", 25)
+print(result)
+result2 = podsumowanie("Ania", 30, "Katowice")
+print(result2)
