@@ -60,6 +60,7 @@ def is_even_sum(a,b):
     return is_even(total)
 result = is_even_sum(3,5)
 print(result)
+
 #Zadanie 8
 def calculate_tip(bill, percent):
     tip = (bill / 100) * percent
