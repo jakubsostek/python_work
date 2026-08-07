@@ -1,13 +1,13 @@
 from zadanie3_funkcje import reverse_string
 
-numbers = [10, 25, 3, 47, 8]
-numbers.append(99)
-numbers.pop(3)
+                numbers = [10, 25, 3, 47, 8]
+                numbers.append(99)
+                numbers.pop(3)
 
-if 47 in numbers:
-    print("jest")
-else:
-    print("nie ma")
+                if 47 in numbers:
+                    print("jest")
+                else:
+                    print("nie ma")
 
 def remove_duplicates(numbers):
     result = []
